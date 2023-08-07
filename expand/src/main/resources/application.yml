@@ -1,0 +1,42 @@
+#bot:
+#  type: ws  #连接类型，可选：ws, ws-reverse,http(开发中)
+#  url: ws://192.168.2.220:6700 #go-cqhttp的地址,要附带协议(如ws://127.0.0.1:6700)
+#  accessToken:  #go-cqhttp配置中的access_token
+#server:
+#  port: 8089
+#spring:
+#  application:
+#    name: qinglong
+#  profiles:
+#    active: ${profiles.active}
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://192.168.2.220:3307/expand?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowMultiQueries=true
+#    username: root
+#    password: root
+#ql:
+#  qlUrl: http://192.168.2.220:2407
+#  clientId: R4-fpL_adAp7
+#  clientSecret: LWrZcSGV3Wpwet_kwNlPDNCE
+
+
+bot:
+  type: ws  #连接类型，可选：ws, ws-reverse,http(开发中)
+  url: ws://192.168.2.220:6800 #go-cqhttp的地址,要附带协议(如ws://127.0.0.1:6700)
+  accessToken:  #go-cqhttp配置中的access_token
+server:
+  port: 8090
+spring:
+  application:
+    name: qinglong-share
+  profiles:
+    active: ${profiles.active}
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.2.220:3307/expand2406?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowMultiQueries=true
+    username: root
+    password: root
+ql:
+  qlUrl: http://192.168.2.220:2404
+  clientId: ZxOBE80gpJC_
+  clientSecret: MQv0vBcv3s-QiEpJfkbQYnRe
